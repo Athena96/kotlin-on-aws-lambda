@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "my-kotlin-lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-nizmbccjpiud"
+s3_prefix = "my-kotlin-lambda"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
